@@ -1,7 +1,18 @@
 body {
     font-family: Roboto;
     color: #212121;
-}
+    }
+
+a {
+    text-decoration: none;
+ }
+
+ ul  {
+    list-style: none;
+ }
+  .list {
+      display: none;
+  }
         /* Класс для Логотипа*/
     .logo {
         font-family: Raleway;
@@ -69,18 +80,22 @@ body {
     .web-sec-part {
         color:#000;
     }
+    /*Цвет заголовка главной секции*/
+    .main-container {
+        background-color: #2F303A;
+    }
              /*Цвет кнопки и текста Главной страницы*/
     .button-main {
         cursor: pointer;
-        background-color: #2196F3;
+        background-color: #2196F3 ;
         color: #fff;
-        background: #2196F3;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
     }
     .button-main:hover, .button-main:focus {
-        color: #2196F3 ;
+        color: #2F303A   ;
     }
+           
     
      /*Цвет кнопки и текста страницы Портфолио*/
      .link .button-port {
@@ -97,6 +112,10 @@ body {
     }
   
              /*Подвал*/
+    .footer-design {
+        background-color: #2F303A ;
+        
+    }
     .web-footer {
         color:#FFFFFF;
         
