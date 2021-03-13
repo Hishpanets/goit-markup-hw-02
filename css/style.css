@@ -1,152 +1,206 @@
+:root {
+    --main-color: #212121;
+    --black-color: #000000;
+    --grey-color: #757575;
+    --blue-color: #2196F3;
+    --white-color: #FFFFFF;
+    }
 body {
     font-family: Roboto;
     color: #212121;
     }
-
 a {
     text-decoration: none;
- }
+   }
 
- ul  {
+ul  {
     list-style: none;
- }
-  .list {
+    }
+.list {
       display: none;
-  }
-        /* Класс для Логотипа*/
-    .logo {
-        font-family: Raleway;
-        font-weight: bold;
-        font-size: 26px;
-        line-height: 31px;
-        color: black;
-        text-decoration: none;
-        }
-
-        /*Текст Герой*/
-        .main-title {
-            font-size: 44px;
-            line-height: 60px;
-            text-align: center;
-            letter-spacing: 0.06em;
-            text-transform: uppercase;
-            color: #FFFFFF;
-        }
-    /*Цвет и размер текста в заголовке Н3*/
-    .title-text {
-        font-weight: bold;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: #212121;
-        
     }
-        /*Цвет и размер текста в абзацаx*/
-    p  {
-        color: #757575;
-        font-size: 14px;
+                         /* Класс для Логотипа*/
+.logo {
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    color: #000000;
+    text-decoration: none;
+    }
 
+                            /*Текст Герой*/
+.main-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    }
+                        /*Данные о заголовке H2*/
+.section-title {
+    font-size: 36px;
+    line-height:1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    }
+
+                    /*Текст о наших преимуществах*/
+.text-paragraph  {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
     } 
-         /*Ссылки навигации*/
-    .link-nav   {
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
-        color: #212121;
+                            /*Наша команда*/
+.section-title-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height:1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
     }
-    .link-nav:hover,.link-nav:focus {
-        color:  #2196F3
+                                /*Профессии*/
+.profession {
+    font-size: 16px;
+    line-height:1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
     }
-     
-        /*Наведение на ссылки*/
-    .link {
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
-        color:#757575 ;
+                    /*Цвет и размер текста в заголовке Н3*/
+.title-text {
+    font-weight: bold;
+    font-size: 14px;
+    line-height:1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
     }
-    .link:hover,.link:focus {
-       color:  #2196F3 ;
+                        /*Цвет и размер текста в абзацаx*/
+p  {
+    color: #757575;
+    font-size: 14px;
+    } 
+                         /*Ссылки навигации*/
+.link-nav   {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #212121;
+    }
+.link-nav:hover,.link-nav:focus {
+    color:  #2196F3
     }
     
-             /*цвет Web в xедере*/
-    .web-part {
-        color: #2196F3;
+                         /*Наведение на ссылки*/
+.link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color:#757575 ;
+    }
+.link:hover,.link:focus {
+    color:  #2196F3 ;
     }
 
-    .web-sec-part {
-        color:#000;
+                        /*цвет Web в xедере*/
+.web-part {
+    color: #2196F3;
     }
-    /*Цвет заголовка главной секции*/
-    .main-container {
-        background-color: #2F303A;
-    }
-             /*Цвет кнопки и текста Главной страницы*/
-    .button-main {
-        cursor: pointer;
-        background-color: #2196F3 ;
-        color: #fff;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 4px;
-    }
-    .button-main:hover, .button-main:focus {
-        color: #2F303A   ;
-    }
-           
-    
-     /*Цвет кнопки и текста страницы Портфолио*/
-     .link .button-port {
-        cursor: pointer;
-        background-color: #2196F3;
-        color: #000;
-        background: #F5F4FA;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 4px;
-    }
-    .link .button-port:hover,.link.button-port:focus  {
-        background-color:  #2196F3;
-        color: #fff ;
-    }
-  
-             /*Подвал*/
-    .footer-design {
-        background-color: #2F303A ;
-        
-    }
-    .web-footer {
-        color:#FFFFFF;
-        
-    }
-    .link-address {
-        font-style: normal;
-        font-size: 14px;
-        line-height: 24px;
-        letter-spacing: 0.03em;
-        background-color: #2F303A;;
-        color: #FFFFFF;
-    }
-    .link-address:hover, .link-address:focus  {
-        color: #2196F3;
-    }
-   
-    .link-footer {
-        font-style: normal;
-        font-size: 14px;
-        line-height: 24px;
-        letter-spacing: 0.03em;
-        background: #2F303A;
-        color: rgba(255, 255, 255, 0.6);
 
-  }
-    .link-footer:hover,.link-footer:focus {
-        color:  #2196F3;
+.web-sec-part {
+    color:#000;
     }
-  
-/* акцент #2196F3; */ 
-/* белый #FFFFFF;*/
-/* цвет текста #212121;*/
-/* цвет параграфа  #757575;*/
-/* вторичный цвет фона #2F303A; */
+                        /*Цвет заголовка главной секции*/
+.main-container {
+    background-color: #2F303A;
+    }
+                        /*Цвет кнопки и текста Главной страницы*/
+.button-main {
+    background-color: #2196F3 ;
+    border-radius: 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+.button-main:hover, .button-main:focus {
+    color: #2F303A   ;
+    }
+                         /*Цвет кнопки и текста страницы Портфолио*/
+.link .button-port {
+    cursor: pointer;
+    background-color: #2196F3;
+    color: #000;
+    background: #F5F4FA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    }
+.link .button-port:hover,.link.button-port:focus  {
+    background-color:  #2196F3;
+    color: #fff ;
+    }
+
+                                    /*Заголовки галереи портфолио*/
+.titles-port {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+    }
+.category-port  {
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: #757575;
+    }
+                                            /*Подвал*/
+.footer-design {
+    background-color: #2F303A ;
+    }
+.web-footer {
+    color:#FFFFFF;
+    }
+.link-address {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    background-color: #2F303A;;
+    color: #FFFFFF;
+    }
+.link-address:hover, .link-address:focus  {
+    color: #2196F3;
+    }
+
+.link-footer {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    background: #2F303A;
+    color: rgba(255, 255, 255, 0.6);
+    }
+.link-footer:hover,.link-footer:focus {
+    color:  #2196F3;
+    }
+
